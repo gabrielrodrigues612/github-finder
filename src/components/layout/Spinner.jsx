@@ -4,7 +4,9 @@ import spinner from "./spinner.gif";
 const Spinner = () => {
   return (
     <Fragment>
-      <img src={spinner} alt="" style={{ width: "100px" }} />
+      <div className="text-center">
+        <img src={spinner} alt="" style={{ width: "100px" }} />
+      </div>
     </Fragment>
   );
 };
